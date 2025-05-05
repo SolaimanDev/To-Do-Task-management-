@@ -12,16 +12,31 @@ This repository contains two projects:
 - PHP ≥ 8.x
 - Composer
 - Node.js ≥ 18.x & npm
-- MySQL or SQLite (or your DB choice)
+- MySQL 
 
 ---
 
-## 🚀 Setup Instructions
-
----
-
-### 1️⃣ Backend — Laravel API
-
+## 🚀 Please follow the instructions for Laravel API 
 1. Navigate to the backend folder:
-   ```bash
-   cd backend
+    cd backend
+   
+`Server Requirements:` Php server & CLI version >= 8.2  
+- clone this git repository  
+- copy `.env.example` to `.env`  
+- configure all info in `.env`  
+- run command `composer install`  
+- run command `php artisan key:generate`  
+- set your email configuration in `.env` file  
+- run command `php artisan migrate`  
+- run command `php artisan optimize:clear`  
+- run command `php artisan optimize`  
+- run command `php artisan serve`  
+---
+
+## 🚀 Please follow the instructions for Frontend VEU
+1. Navigate to the backend folder:
+    cd frontend
+
+- run command `npm install`
+- - run command `npm run dev`  
+---
